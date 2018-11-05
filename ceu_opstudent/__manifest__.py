@@ -32,7 +32,7 @@
             'base'
         ],
     'data': [            
-#            "views/op_student_view.xml"
+            "views/op_student_view.xml"
         ],
     'demo': [],
     'installable': True,
