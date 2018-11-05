@@ -29,7 +29,8 @@
     'sequence': 15,
     'summary': 'modulo de registro de miembros',
     'depends': [
-            'base'
+            'base',
+            'openeducat_core',
         ],
     'data': [            
             "views/op_student_view.xml"
