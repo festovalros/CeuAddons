@@ -23,7 +23,7 @@
     'name': 'CEU student',
     'version': '1.0.0',
     'category': 'Various',
-    'author': u'Maury Isasis',
+    'author': u'Maury Isasis / Cecilia Mardomingo',
     'website': '',
     'license': 'GPL-3',
     'sequence': 15,

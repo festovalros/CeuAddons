@@ -8,9 +8,8 @@ from odoo import fields, models, api
 class OpStudent(models.Model):
     _inherit = 'op.student'
 
-#    birth_date = fields.Date(string="Fecha de Nacimiento")
+    cedula = fields.Integer(string='Cédula', help='Ingrese su cédula en el formato 16123123')
     is_ucevista = fields.Boolean(string='¿Es Ucevista?')
-#    blood_group = fields.Selection(string="Grupo Sanguíneo", [('A+','A+'),('A-','A-'),('B+','B+'),('B-','B-'),('O+','O+'),('O-','O-')])
     start_year = fields.Integer(string='Año de Ingreso', readonly=True)    
-
+    enfermedades_alergias = fields.Text('Enfermedades y Alergias', help='Ingrese su historial de enfermedades y alergias')
     
