@@ -32,9 +32,7 @@
             'base',
             'openeducat_core',
         ],
-    'data': [            
-            "views/op_student_view.xml"
-        ],
+    'data': ["views/op_student_view.xml"],
     'demo': [],
     'installable': True,
     'auto_install': False,
