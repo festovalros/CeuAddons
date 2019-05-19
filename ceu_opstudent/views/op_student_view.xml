@@ -16,6 +16,10 @@
 					<field name="enfermedades_alergias"/>
 
 				</field>
+
+				<field name="already_partner" position="attributes">
+					<attribute name="attrs">{'invisible': True }</attribute>
+				</field>
 			</field>
 		</record>
 		
