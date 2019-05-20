@@ -64,6 +64,7 @@ install:
   - git clone --depth=1 https://github.com/OCA/maintainer-quality-tools.git ${HOME}/maintainer-quality-tools
   - git clone --depth=1 https://github.com/openeducat/openeducat_erp.git -b ${VERSION} ${HOME}/openeducat_erp
   - export PATH=${HOME}/maintainer-quality-tools/travis:${PATH}
+  - export PATH=${HOME}/openeducat_erp/travis:${PATH}
   - travis_install_nightly
 
 script:
