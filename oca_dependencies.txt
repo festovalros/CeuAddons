@@ -1,0 +1,1 @@
+openeducar_erp https://github.com/openeducat/openeducat_erp.git 11.0
